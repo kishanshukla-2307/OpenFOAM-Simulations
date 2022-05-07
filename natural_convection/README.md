@@ -4,8 +4,9 @@
 There is a hot vertical cylinder (length=10, radius=1.5) hanging in a cubical room of dimension 30 * 30 * 30. The surface of the cylinder is maintained at the temperature of 330K and the walls of the room are maintained at 300K, also the air in the room is at the temperature of 300K. The cylinder is positioned hanging in the middle of the room. The following figure shows the geometry.
 
 	
-<!-- Geometry: ![Alt](/natural_convection/plots/geometry.jpeg "Title" | width=100) -->
-<img src="/natural_convection/plots/geometry.jpeg" width="324" height="324">
+<p align="center">
+	<img src="/natural_convection/plots/geometry.jpeg" width="370" height="324">
+</p>
 
 #### SIMULATION:
 ##### Directory structure:
