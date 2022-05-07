@@ -5,7 +5,7 @@ There is a hot vertical cylinder (length=10, radius=1.5) hanging in a cubical ro
 
 	
 <!-- Geometry: ![Alt](/natural_convection/plots/geometry.jpeg "Title" | width=100) -->
-<img src="/natural_convection/plots/geometry.jpeg" width="324" height="324" style="display: block; margin: 0 auto">
+<img src="/natural_convection/plots/geometry.jpeg" width="324" height="324">
 
 #### SIMULATION:
 ##### Directory structure:
@@ -32,29 +32,23 @@ For this simulation, we need buoyantSimpleFoam, as it is most suitable for the c
 - If not converged, go back to step 2
 
 
-RESULTS OF THE SIMULATION:
+#### RESULTS OF THE SIMULATION:
 
-Temperature Plot
+<img src="/natural_convection/plots/Uz_vs_y.jpeg" width="400" height="350" align="right" title="Uz vs y">
 
-<img src="/natural_convection/plots/T_vs_y.jpeg" width="324" height="324">
+<img src="/natural_convection/plots/T_vs_y.jpeg" width="400" height="350" title="Temperature Plot">
 
-Uz vs y
-
-<img src="/natural_convection/plots/Uz_vs_y.jpeg" width="324" height="324">
-
-P vs z
-
-<img src="/natural_convection/plots/P_vs_z.jpeg" width="324" height="324">
+<img src="/natural_convection/plots/P_vs_z.jpeg" width="400" height="350" title="P vs z">
 
 Pressure decreases as z increases due to the presence of gravity. We see steps in the graph as the mesh has discrete points.
 
-Heat Maps of Velocity and Temperature:
+#### Heat Maps of Velocity and Temperature:
 
 
-<img src="/natural_convection/plots/uz-vs-y.gif" width="324" height="324" style="display: block; margin: 0 auto">
-<img src="/natural_convection/plots/uy-vs-y.gif" width="324" height="324" style="display: block; margin: 0 auto">
-<img src="/natural_convection/plots/ux-vs-y.gif" width="324" height="324" style="display: block; margin: 0 auto">
-<img src="/natural_convection/plots/t-vs-y.gif" width="324" height="324" style="display: block; margin: 0 auto">
+<img src="/natural_convection/plots/uy-vs-y.gif" width="400" height="324" align="right">
+<img src="/natural_convection/plots/uz-vs-y.gif" width="400" height="324">
+<img src="/natural_convection/plots/t-vs-y.gif" width="400" height="324" align="right">
+<img src="/natural_convection/plots/ux-vs-y.gif" width="400" height="324" >
 
 
 
